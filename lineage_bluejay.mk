@@ -29,3 +29,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := google/bluejay/bluejay:13/TQ3A.230901.001/10750268:user/release-keys
 
 $(call inherit-product, vendor/google/bluejay/bluejay-vendor.mk)
+
+# enable AXP.OS vendor
+$(call inherit-product, vendor/axp/config/common.mk)
